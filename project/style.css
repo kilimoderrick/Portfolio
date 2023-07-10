@@ -1,0 +1,202 @@
+.logoimage{
+    height: 40px;
+    width: 40px;
+    margin-right: 10px;    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 10%;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+nav ul li a::after{
+    content:  '';
+    width: 0;
+    height: 3px;
+    background: #000000;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+.logoname{
+    color: #ffffff;
+}
+.navlist{
+    display: flex;
+    color: #fff;
+}
+.navlistitem{
+    margin: 30px;
+    font-weight: 600;
+}
+.logocontainer{
+      display: flex;
+    align-items: center;
+}
+#header{
+    width: 50%;
+    height: 80vh;
+    background-image: url(About-.png);
+    background-size: cover;
+    background-position: center;
+    justify-content: left;
+}
+body {
+    background: #080808;
+    color: #fff;
+
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 50px;
+  }
+  
+  h1, h2, h3 {
+    color: #333;
+  }
+  
+  .project {
+    margin-bottom: 20px;
+  }
+  
+  form label, form input, form textarea {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  .bodycontainer{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    background-size: cover;
+    background-position: center;
+}
+.header-text{
+  color: #fff;
+  font-size: 30px;
+}
+
+.subtitle{
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+}
+.tab-tables{
+    display: flex;
+    margin: 1px 0 50px;
+    size: 10px;
+}
+.tab-links{
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+    margin: 50px;
+
+}
+.tab-links::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0;
+    bottom: -8;
+    transition: 0.5s;
+
+}
+.trial{
+  border-radius: 50%
+}
+.tab-links.active-links::after{
+  width: 50%;
+}
+tab-content ul li span{
+  list-style: none;
+  margin: 10PX 0;
+}
+.tab-content ul li span{
+  color: #b54769;
+  font-size: 14px;
+}
+.projects{
+  font-size: 30px;
+  color: #fff;
+}
+.portfolio{
+  color: #fff;
+  font-size: 50PX;
+}
+.contactme{
+  color: #fff;
+  font-size: 50px;
+}
+.row{
+  justify-content: space-between;
+  display: flex;
+
+}
+.social-icon{
+  color: #ff004f;
+  margin-top: 30px;
+}
+.contact-left{
+  margin: 30px;
+}
+
+
+
